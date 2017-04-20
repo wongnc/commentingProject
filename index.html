@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JS Commenting Page</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+<body id = "body">
+		<h1>Questions or Comments</h1>
+		<!-- user name -->
+		<div id = "input">
+			<input type = "text" id = "userName" placeholder ="Name"/>
+			<!-- user input -->
+			<input type = "text" id = "userComment" placeholder = "Comment"/>
+			<!-- button -->
+			<button onclick ="addComment()" class="btn btn-primary">Submit Your Comments</button>
+		</div>
+	<!-- Adding comments to the list -->
+	<div>
+		<ul id="comments"></ul>
+	</div>
+
+<script type="text/javascript" src="js/app.js"></script>
+
+</body>
+</html>

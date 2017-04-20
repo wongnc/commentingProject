@@ -1,0 +1,18 @@
+body{
+	background-color: white;
+}
+
+#body h1{
+	text-align:center;
+	color: orange;
+}
+
+#body #input{
+	text-align:center;
+}
+
+.liClass{
+	color: black;
+	font-size: 25px;
+
+}
