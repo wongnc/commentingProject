@@ -1,10 +1,18 @@
 body{
-	background-color: white;
+	background: url("/images/CommentPic.jpg") no-repeat center center fixed;
+	background-size: cover;
 }
+
+/*
+body{
+	background-color: white;
+	
+}
+*/
 
 #body h1{
 	text-align:center;
-	color: orange;
+	color: turquoise;
 }
 
 #body #input{
@@ -12,7 +20,12 @@ body{
 }
 
 .liClass{
-	color: black;
+	color: white;
 	font-size: 25px;
 
+}
+
+.dateClass{
+	color:white;
+	font-size: 15px
 }
